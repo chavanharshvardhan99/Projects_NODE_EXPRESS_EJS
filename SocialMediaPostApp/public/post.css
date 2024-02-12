@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    width: 150px
+}
+
+i {
+    font-size: 50px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form {
+    margin: auto;
+    margin-bottom: 5%;
+    width: max-content;
+    background-color: rgb(243, 199, 205);
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#form:hover {
+    transform: scale(1.02);
+    transition-duration: 1s;
+}
+
+input {
+    height: 50px;
+    width: 600px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+textarea {
+    background-color: lightgoldenrodyellow;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+button {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+    background-color: lightgray;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+button:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    background-color: lightgoldenrodyellow;
+    cursor: pointer;
+}
